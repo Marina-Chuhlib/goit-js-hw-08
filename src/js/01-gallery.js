@@ -4,6 +4,9 @@ import { galleryItems } from './gallery-items';
 
 console.log(galleryItems);
 
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const galleryMarkup = ({ original, preview, description }) => {
   return `<li>
     <a class="gallery__item" href= '${original}' "large-image.jpg">
