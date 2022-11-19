@@ -29,13 +29,13 @@ getValueLocalStorage();
 const onFormSub = e => {
   e.preventDefault();
 
-  if (
-    formRef.email.value.trim() === '' ||
-    formRef.message.value.trim() === ''
-  ) {
-    alert('Bсе поля должны быть заполнены!');
-    return false;
-  }
+  // if (
+  //   formRef.email.value.trim() === '' ||
+  //   formRef.message.value.trim() === ''
+  // ) {
+  //   alert('Bсе поля должны быть заполнены!');
+  //   return false;
+  // }
 
   console.log(formData);
 
